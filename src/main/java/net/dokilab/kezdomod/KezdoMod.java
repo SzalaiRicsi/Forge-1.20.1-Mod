@@ -1,7 +1,12 @@
 package net.dokilab.kezdomod;
 
 import com.mojang.logging.LogUtils;
+import net.dokilab.kezdomod.item.ModCreativeModeTabs;
+import net.dokilab.kezdomod.item.Moditems;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.common.CreativeModeTabRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -24,6 +29,11 @@ public class KezdoMod
     public KezdoMod(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        Moditems.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -37,6 +47,10 @@ public class KezdoMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+        event.accept(Moditems.Coin);
+        event.accept(Moditems.Coin_Silver);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
