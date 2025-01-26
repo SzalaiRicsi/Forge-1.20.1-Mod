@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "kezdomod:block/coin_gold_sack" }
+    "": {
+      "model": "kezdomod:block/coin_gold_sack"
+    }
   }
 }

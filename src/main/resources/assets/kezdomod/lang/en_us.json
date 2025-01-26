@@ -1,8 +1,15 @@
 {
   "item.kezdomod.coin": "Gold Coin",
+  "item.kezdomod.coin_gold_pouch": "Pouch of Gold Coin",
   "item.kezdomod.coin_silver": "Silver Coin",
 
-  "block.kezdomod.coin_gold_sack": "Gold Coin Sack",
+  "block.kezdomod.coin_gold_sack": "Sack of Gold Coins",
 
-  "creativetab.kezdo_tab": "Kezdo Mod: Coins"
+  "creativetab.kezdo_tab": "Kezdo Mod: Coins",
+
+  "sounds.kezdomod.coin_gold_sack_place": "Gold Sack Placed",
+  "sounds.kezdomod.coin_gold_sack_break": "Gold Sack Break",
+  "sounds.kezdomod.coin_gold_sack_hit": "Gold Sack Hit",
+  "sounds.kezdomod.coin_gold_sack_step": "Gold Sack Step",
+  "sounds.kezdomod.coin_gold_sack_fall": "Gold Sack Fall"
 }

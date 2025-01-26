@@ -2,10 +2,12 @@ package net.dokilab.kezdomod.block;
 
 import net.dokilab.kezdomod.KezdoMod;
 import net.dokilab.kezdomod.item.Moditems;
+import net.dokilab.kezdomod.sound.Modsounds;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -21,7 +23,7 @@ public class Modblocks {
 //    BLOKOk
 
     public static final RegistryObject<Block> Coin_Gold_Sack = registerBlock("coin_gold_sack",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).noOcclusion()));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).noOcclusion().sound(Modsounds.coin_gold_sack_sounds)));
 
 
 

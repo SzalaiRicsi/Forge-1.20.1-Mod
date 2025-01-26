@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "kezdomod:coin"
+    }
+  },
+  "result": {
+    "item": "kezdomod:coin_gold_pouch"
+  }
+}

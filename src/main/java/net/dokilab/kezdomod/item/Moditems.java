@@ -20,6 +20,9 @@ public class Moditems {
     public static final RegistryObject<Item> Coin_Silver = ITEMS.register("coin_silver",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> Coin_Gold_Pouch = ITEMS.register("coin_gold_pouch",
+            () -> new Item(new Item.Properties()));
+
 //    END
 
     public static void  register(IEventBus eventBus) {

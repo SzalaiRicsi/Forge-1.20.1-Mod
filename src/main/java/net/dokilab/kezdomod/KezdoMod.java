@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.dokilab.kezdomod.block.Modblocks;
 import net.dokilab.kezdomod.item.ModCreativeModeTabs;
 import net.dokilab.kezdomod.item.Moditems;
+import net.dokilab.kezdomod.sound.Modsounds;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -35,6 +36,7 @@ public class KezdoMod
 
         Moditems.register(modEventBus);
         Modblocks.register(modEventBus);
+        Modsounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -1,0 +1,32 @@
+{
+  "coin_gold_sack_place": {
+    "subtitles": "sounds.kezdomod.coin_gold_sack_place",
+    "sounds": [
+      "kezdomod:coin_gold_sack_place"
+    ]
+  },
+  "coin_gold_sack_break": {
+    "subtitles": "sounds.kezdomod.coin_gold_sack_break",
+    "sounds": [
+      "kezdomod:coin_gold_sack_break"
+    ]
+  },
+  "coin_gold_sack_hit": {
+    "subtitles": "sounds.kezdomod.coin_gold_sack_hit",
+    "sounds": [
+      "kezdomod:coin_gold_sack_hit"
+    ]
+  },
+  "coin_gold_sack_step": {
+    "subtitles": "sounds.kezdomod.coin_gold_sack_step",
+    "sounds": [
+      "kezdomod:coin_gold_sack_step"
+    ]
+  },
+  "coin_gold_sack_fall": {
+    "subtitles": "sounds.kezdomod.coin_gold_sack_fall",
+    "sounds": [
+      "kezdomod:coin_gold_sack_fall"
+    ]
+  }
+}

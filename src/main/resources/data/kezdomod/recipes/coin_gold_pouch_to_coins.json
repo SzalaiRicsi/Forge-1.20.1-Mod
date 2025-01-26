@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kezdomod:coin_gold_pouch"
+    }
+  ],
+  "result": {
+    "item": "kezdomod:coin",
+    "count": 9
+  }
+}
