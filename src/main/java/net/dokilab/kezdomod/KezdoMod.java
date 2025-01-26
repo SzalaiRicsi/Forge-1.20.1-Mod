@@ -18,7 +18,6 @@ import org.slf4j.Logger;
 @Mod(KezdoMod.MOD_ID)
 public class KezdoMod
 {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "kezdomod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
