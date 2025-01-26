@@ -2,5 +2,7 @@
   "item.kezdomod.coin": "Gold Coin",
   "item.kezdomod.coin_silver": "Silver Coin",
 
+  "block.kezdomod.coin_gold_sack": "Gold Coin Sack",
+
   "creativetab.kezdo_tab": "Kezdo Mod: Coins"
 }

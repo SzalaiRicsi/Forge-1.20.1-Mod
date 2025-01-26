@@ -1,6 +1,7 @@
 package net.dokilab.kezdomod;
 
 import com.mojang.logging.LogUtils;
+import net.dokilab.kezdomod.block.Modblocks;
 import net.dokilab.kezdomod.item.ModCreativeModeTabs;
 import net.dokilab.kezdomod.item.Moditems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -33,6 +34,7 @@ public class KezdoMod
         ModCreativeModeTabs.register(modEventBus);
 
         Moditems.register(modEventBus);
+        Modblocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

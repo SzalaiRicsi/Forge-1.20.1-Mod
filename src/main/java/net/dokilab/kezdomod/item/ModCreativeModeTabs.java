@@ -1,6 +1,7 @@
 package net.dokilab.kezdomod.item;
 
 import net.dokilab.kezdomod.KezdoMod;
+import net.dokilab.kezdomod.block.Modblocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,8 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(Moditems.Coin_Silver.get());
                         pOutput.accept(Moditems.Coin.get());
+
+                        pOutput.accept(Modblocks.Coin_Gold_Sack.get());
                     })
                     .build());
 
