@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "kezdomod:azurite"
+    }
+  },
+  "result": {
+    "item": "kezdomod:azurite_block"
+  }
+}

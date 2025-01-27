@@ -29,6 +29,9 @@ public class Moditems {
     public static final RegistryObject<Item> Date = ITEMS.register("date",
             () -> new Item(new Item.Properties().food(Modsfood.DATE).stacksTo(16)));
 
+    public static final RegistryObject<Item> Azurite = ITEMS.register("azurite",
+            () -> new Item(new Item.Properties()));
+
 //    END
 
     public static void  register(IEventBus eventBus) {

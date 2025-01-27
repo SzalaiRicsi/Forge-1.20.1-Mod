@@ -4,9 +4,12 @@
   "item.kezdomod.coin_silver": "Silver Coin",
   "item.kezdomod.fresh_date": "Fresh Date",
   "item.kezdomod.date": "Date",
+  "item.kezdomod.azurite": "Azurite",
 
   "block.kezdomod.coin_gold_sack": "Sack of Gold Coins",
   "block.kezdomod.horuss_block": "Horuss Blessing Altar",
+  "block.kezdomod.azurite_sand": "Azurite Sand",
+  "block.kezdomod.azurite_block": "Azurite Block",
 
   "creativetab.kezdo_tab": "Kezdo Mod: Coins",
 
