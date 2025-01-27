@@ -21,8 +21,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(Moditems.Coin_Silver.get());
                         pOutput.accept(Moditems.Coin.get());
                         pOutput.accept(Moditems.Coin_Gold_Pouch.get());
+                        pOutput.accept(Moditems.Fresh_Date.get());
+                        pOutput.accept(Moditems.Date.get());
 
                         pOutput.accept(Modblocks.Coin_Gold_Sack.get());
+                        pOutput.accept(Modblocks.Horuss_Block.get());
                     })
                     .build());
 

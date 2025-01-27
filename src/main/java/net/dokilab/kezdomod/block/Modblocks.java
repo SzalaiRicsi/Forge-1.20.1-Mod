@@ -1,6 +1,7 @@
 package net.dokilab.kezdomod.block;
 
 import net.dokilab.kezdomod.KezdoMod;
+import net.dokilab.kezdomod.block.custom.HorussblessingBlock;
 import net.dokilab.kezdomod.item.Moditems;
 import net.dokilab.kezdomod.sound.Modsounds;
 import net.minecraft.world.item.BlockItem;
@@ -25,7 +26,8 @@ public class Modblocks {
     public static final RegistryObject<Block> Coin_Gold_Sack = registerBlock("coin_gold_sack",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).noOcclusion().sound(Modsounds.coin_gold_sack_sounds)));
 
-
+    public static final RegistryObject<Block> Horuss_Block = registerBlock("horuss_block",
+            () -> new HorussblessingBlock(BlockBehaviour.Properties.copy(Blocks.SANDSTONE).noOcclusion().sound(Modsounds.coin_gold_sack_sounds)));
 
 
 //    END

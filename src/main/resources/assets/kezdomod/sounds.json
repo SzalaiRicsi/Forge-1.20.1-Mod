@@ -28,5 +28,14 @@
     "sounds": [
       "kezdomod:coin_gold_sack_fall"
     ]
+  },
+  "horuss_use1": {
+    "sounds": [{"name": "kezdomod:horuss_use1", "stream": false}]
+  },
+  "horuss_use2": {
+    "sounds": [{"name": "kezdomod:horuss_use2", "stream": false}]
+  },
+  "horuss_use3": {
+    "sounds": [{"name": "kezdomod:horuss_use3", "stream": false}]
   }
 }

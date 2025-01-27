@@ -14,6 +14,9 @@ public class Modsounds {
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, KezdoMod.MOD_ID);
 
 
+    public static final RegistryObject<SoundEvent> HORUSS_USE1 = registerSoundEvent("horuss_use1");
+    public static final RegistryObject<SoundEvent> HORUSS_USE2 = registerSoundEvent("horuss_use2");
+    public static final RegistryObject<SoundEvent> HORUSS_USE3 = registerSoundEvent("horuss_use3");
     public static final RegistryObject<SoundEvent> COIN_GOLD_SACK_BREAK = registerSoundEvent("coin_gold_sack_break");
     public static final RegistryObject<SoundEvent> COIN_GOLD_SACK_STEP = registerSoundEvent("coin_gold_sack_step");
     public static final RegistryObject<SoundEvent> COIN_GOLD_SACK_FALL = registerSoundEvent("coin_gold_sack_fall");

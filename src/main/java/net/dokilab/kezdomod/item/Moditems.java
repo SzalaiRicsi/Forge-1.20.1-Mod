@@ -23,6 +23,12 @@ public class Moditems {
     public static final RegistryObject<Item> Coin_Gold_Pouch = ITEMS.register("coin_gold_pouch",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> Fresh_Date = ITEMS.register("fresh_date",
+            () -> new Item(new Item.Properties().food(Modsfood.FRESH_DATE).stacksTo(16)));
+
+    public static final RegistryObject<Item> Date = ITEMS.register("date",
+            () -> new Item(new Item.Properties().food(Modsfood.DATE).stacksTo(16)));
+
 //    END
 
     public static void  register(IEventBus eventBus) {
