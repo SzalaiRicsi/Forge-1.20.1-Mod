@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kezdomod:date"
+    }
+  ],
+  "result": {
+    "item": "kezdomod:sugar",
+    "count": 4
+  }
+}
