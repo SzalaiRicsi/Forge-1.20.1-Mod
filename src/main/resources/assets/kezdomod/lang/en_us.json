@@ -18,5 +18,12 @@
   "sounds.kezdomod.coin_gold_sack_hit": "Gold Sack Hit",
   "sounds.kezdomod.coin_gold_sack_step": "Gold Sack Step",
   "sounds.kezdomod.coin_gold_sack_fall": "Gold Sack Fall",
-  "sounds.kezdomod.horuss_use": "Horuss Use"
+  "sounds.kezdomod.horuss_use": "Horuss Use",
+
+  "sounds.kezdomod.hexed_step1": "Hexed Step1",
+  "sounds.kezdomod.hexed_step2": "Hexed Step2",
+  "sounds.kezdomod.hexed_step3": "Hexed Step3",
+  "sounds.kezdomod.hexed_step4": "Hexed Step4",
+  "sounds.kezdomod.hexed_attack": "Hexed Attack",
+  "sounds.kezdomod.hexed_death": "Hexed Death"
 }

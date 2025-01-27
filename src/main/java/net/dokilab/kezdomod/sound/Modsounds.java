@@ -23,6 +23,10 @@ public class Modsounds {
     public static final RegistryObject<SoundEvent> COIN_GOLD_SACK_PLACE = registerSoundEvent("coin_gold_sack_place");
     public static final RegistryObject<SoundEvent> COIN_GOLD_SACK_HIT = registerSoundEvent("coin_gold_sack_hit");
 
+    public static final RegistryObject<SoundEvent> HEXED_STEP1 = registerSoundEvent("hexed_step1");
+    public static final RegistryObject<SoundEvent> HEXED_ATTACK = registerSoundEvent("hexed_attack");
+    public static final RegistryObject<SoundEvent> HEXED_DEATH = registerSoundEvent("hexed_death");
+
     public static final ForgeSoundType coin_gold_sack_sounds = new ForgeSoundType(1f, 1f, Modsounds.COIN_GOLD_SACK_BREAK, Modsounds.COIN_GOLD_SACK_STEP,
             Modsounds.COIN_GOLD_SACK_PLACE, Modsounds.COIN_GOLD_SACK_HIT, Modsounds.COIN_GOLD_SACK_FALL);
 

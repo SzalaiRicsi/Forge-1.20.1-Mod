@@ -2,12 +2,17 @@ package net.dokilab.kezdomod;
 
 import com.mojang.logging.LogUtils;
 import net.dokilab.kezdomod.block.Modblocks;
+import net.dokilab.kezdomod.entity.Modentities;
+import net.dokilab.kezdomod.entity.client.HexedRenderer;
+import net.dokilab.kezdomod.entity.client.SandstoneGolemRenderer;
 import net.dokilab.kezdomod.item.ModCreativeModeTabs;
 import net.dokilab.kezdomod.item.Moditems;
 import net.dokilab.kezdomod.sound.Modsounds;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.CreativeModeTabRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -20,6 +25,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+
+import javax.swing.text.html.parser.Entity;
 
 // The value here should match an entry in the META-INF/mods.toml
 @Mod(KezdoMod.MOD_ID)
@@ -37,6 +44,7 @@ public class KezdoMod
         Moditems.register(modEventBus);
         Modblocks.register(modEventBus);
         Modsounds.register(modEventBus);
+        Modentities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -70,6 +78,9 @@ public class KezdoMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+            EntityRenderers.register(Modentities.HEXED.get(), HexedRenderer::new);
+
+            EntityRenderers.register(Modentities.SANDSTONE_GOLEM.get(), SandstoneGolemRenderer::new);
         }
     }
 }

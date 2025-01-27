@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:builtin/entity",
+  "textures": {
+    "layer0": "kezdomod:textures/entity/sandstone_golem.png"
+  }
+}

@@ -37,5 +37,45 @@
   },
   "horuss_use3": {
     "sounds": [{"name": "kezdomod:horuss_use3", "stream": false}]
+  },
+
+  "hexed_step1": {
+    "subtitles": "sounds.kezdomod.hexed_step1",
+    "sounds": [
+      "kezdomod:hexed_step1",
+      "kezdomod:hexed_step2",
+      "kezdomod:hexed_step3",
+      "kezdomod:hexed_step4"
+    ]
+  },
+  "hexed_step2": {
+    "subtitles": "sounds.kezdomod.hexed_step2",
+    "sounds": [
+      "kezdomod:hexed_step2"
+    ]
+  },
+  "hexed_step3": {
+    "subtitles": "sounds.kezdomod.hexed_step3",
+    "sounds": [
+      "kezdomod:hexed_step3"
+    ]
+  },
+  "hexed_step4": {
+    "subtitles": "sounds.kezdomod.hexed_step4",
+    "sounds": [
+      "kezdomod:hexed_step4"
+    ]
+  },
+  "hexed_attack": {
+    "subtitles": "sounds.kezdomod.hexed_attack",
+    "sounds": [
+      "kezdomod:hexed_attack"
+    ]
+  },
+  "hexed_death": {
+    "subtitles": "sounds.kezdomod.hexed_death",
+    "sounds": [
+      "kezdomod:hexed_death"
+    ]
   }
 }
