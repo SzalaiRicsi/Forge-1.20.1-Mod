@@ -67,7 +67,6 @@ public class SandstoneGolemModel<T extends Entity> extends HierarchicalModel<San
 	@Override
 	public void setupAnim(SandstoneGolemEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 		this.root().getAllParts().forEach(ModelPart::resetPose);
-		this.applyHeadRotation(netHeadYaw, headPitch, ageInTicks);
 		// Check real movement instead of limbSwingAmount
 		boolean isMoving = entity.getDeltaMovement().horizontalDistanceSqr() > 0.0025;
 
