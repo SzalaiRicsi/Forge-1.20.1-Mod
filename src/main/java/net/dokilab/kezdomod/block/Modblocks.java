@@ -29,7 +29,7 @@ public class Modblocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).noOcclusion().sound(Modsounds.coin_gold_sack_sounds)));
 
     public static final RegistryObject<Block> Horuss_Block = registerBlock("horuss_block",
-            () -> new HorussblessingBlock(BlockBehaviour.Properties.copy(Blocks.SANDSTONE).noOcclusion().sound(Modsounds.coin_gold_sack_sounds)));
+            () -> new HorussblessingBlock(BlockBehaviour.Properties.copy(Blocks.SANDSTONE).noOcclusion().dynamicShape()));
 
     public static final RegistryObject<Block> Azurite_Sand = registerBlock("azurite_sand",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.SAND), UniformInt.of(3,6)));

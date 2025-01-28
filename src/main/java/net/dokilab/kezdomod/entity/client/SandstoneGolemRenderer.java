@@ -1,7 +1,6 @@
 package net.dokilab.kezdomod.entity.client;
 
 import net.dokilab.kezdomod.KezdoMod;
-import net.dokilab.kezdomod.entity.customs.HexedEntity;
 import net.dokilab.kezdomod.entity.customs.SandstoneGolemEntity;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;

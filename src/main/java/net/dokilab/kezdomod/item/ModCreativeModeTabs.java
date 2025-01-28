@@ -24,6 +24,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(Moditems.Fresh_Date.get());
                         pOutput.accept(Moditems.Date.get());
                         pOutput.accept(Moditems.Azurite.get());
+                        pOutput.accept(Moditems.StaffofSand.get());
+                        pOutput.accept(Moditems.Dung.get());
 
                         pOutput.accept(Modblocks.Coin_Gold_Sack.get());
                         pOutput.accept(Modblocks.Horuss_Block.get());

@@ -18,9 +18,6 @@ import net.minecraft.world.entity.AnimationState;
 import net.minecraft.world.entity.Entity;
 
 public class SandstoneGolemModel<T extends Entity> extends HierarchicalModel<SandstoneGolemEntity> {
-	// This layer location should be baked with EntityRendererProvider.Context in the entity renderer and passed into this model's constructor
-	public static final ModelLayerLocation LAYER_LOCATION =
-			new ModelLayerLocation(new ResourceLocation(KezdoMod.MOD_ID, "sandstone_golem"), "main");
 
 	private final ModelPart body;
 	private final ModelPart head;

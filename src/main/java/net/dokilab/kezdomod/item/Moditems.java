@@ -1,6 +1,8 @@
 package net.dokilab.kezdomod.item;
 
 import net.dokilab.kezdomod.KezdoMod;
+import net.dokilab.kezdomod.item.custom.FuelItem;
+import net.dokilab.kezdomod.item.custom.StaffOfSandItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -31,6 +33,12 @@ public class Moditems {
 
     public static final RegistryObject<Item> Azurite = ITEMS.register("azurite",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> StaffofSand = ITEMS.register("staffofsand",
+            () -> new StaffOfSandItem(new Item.Properties().durability(100)));
+
+    public static final RegistryObject<Item> Dung = ITEMS.register("dung",
+            () -> new FuelItem(new Item.Properties(), 800));
 
 //    END
 

@@ -48,24 +48,6 @@
       "kezdomod:hexed_step4"
     ]
   },
-  "hexed_step2": {
-    "subtitles": "sounds.kezdomod.hexed_step2",
-    "sounds": [
-      "kezdomod:hexed_step2"
-    ]
-  },
-  "hexed_step3": {
-    "subtitles": "sounds.kezdomod.hexed_step3",
-    "sounds": [
-      "kezdomod:hexed_step3"
-    ]
-  },
-  "hexed_step4": {
-    "subtitles": "sounds.kezdomod.hexed_step4",
-    "sounds": [
-      "kezdomod:hexed_step4"
-    ]
-  },
   "hexed_attack": {
     "subtitles": "sounds.kezdomod.hexed_attack",
     "sounds": [

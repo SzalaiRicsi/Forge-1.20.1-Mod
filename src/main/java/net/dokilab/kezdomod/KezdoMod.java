@@ -5,6 +5,8 @@ import net.dokilab.kezdomod.block.Modblocks;
 import net.dokilab.kezdomod.entity.Modentities;
 import net.dokilab.kezdomod.entity.client.HexedRenderer;
 import net.dokilab.kezdomod.entity.client.SandstoneGolemRenderer;
+import net.dokilab.kezdomod.entity.client.LurkerRenderer;
+import net.dokilab.kezdomod.entity.client.MummyRenderer;
 import net.dokilab.kezdomod.item.ModCreativeModeTabs;
 import net.dokilab.kezdomod.item.Moditems;
 import net.dokilab.kezdomod.sound.Modsounds;
@@ -81,6 +83,10 @@ public class KezdoMod
             EntityRenderers.register(Modentities.HEXED.get(), HexedRenderer::new);
 
             EntityRenderers.register(Modentities.SANDSTONE_GOLEM.get(), SandstoneGolemRenderer::new);
+
+            EntityRenderers.register(Modentities.LURKER.get(), LurkerRenderer::new);
+
+            EntityRenderers.register(Modentities.MUMMY.get(), MummyRenderer::new);
         }
     }
 }

@@ -3,6 +3,8 @@ package net.dokilab.kezdomod.event;
 import net.dokilab.kezdomod.KezdoMod;
 import net.dokilab.kezdomod.entity.client.HexedModel;
 import net.dokilab.kezdomod.entity.client.SandstoneGolemModel;
+import net.dokilab.kezdomod.entity.client.LurkerModel;
+import net.dokilab.kezdomod.entity.client.MummyModel;
 import net.dokilab.kezdomod.entity.client.ModModelLayers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
@@ -17,5 +19,9 @@ public class ModEventBusClientEvents {
         event.registerLayerDefinition(ModModelLayers.HEXED_LAYER, HexedModel::createBodyLayer);
 
         event.registerLayerDefinition(ModModelLayers.SANDSTONEGOLEM_LAYER, SandstoneGolemModel::createBodyLayer);
+
+        event.registerLayerDefinition(ModModelLayers.LURKER_LAYER, LurkerModel::createBodyLayer);
+
+        event.registerLayerDefinition(ModModelLayers.MUMMY_LAYER, MummyModel::createBodyLayer);
     }
 }
